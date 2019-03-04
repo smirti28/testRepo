@@ -41,6 +41,7 @@ public class ControlPage {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
+		System.out.println("");
 	}
 
 	@AfterMethod
