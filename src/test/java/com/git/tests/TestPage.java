@@ -11,6 +11,7 @@ public class TestPage extends ControlPage {
 	@Test
 	public void testpage() {
 		myHomePage.getWebsite();
+		myHomePage.searchObject("Object");
 	}
 
 }
