@@ -12,6 +12,7 @@ public class TestPage extends ControlPage {
 	public void testpage() {
 		myHomePage.getWebsite();
 		myHomePage.searchObject("Object");
+		System.out.println("This is for testing git webhook");
 	}
 
 }
