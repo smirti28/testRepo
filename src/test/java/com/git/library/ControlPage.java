@@ -22,7 +22,7 @@ public class ControlPage {
 
 	@BeforeClass
 	public void beforeAllTestStart() {
-
+		System.out.println("Current Push");
 	}
 
 	@AfterClass
